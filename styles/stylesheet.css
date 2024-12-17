@@ -1,0 +1,48 @@
+/*This stylesheet should include:
+At least four style definitions (it is possible you will have many more than four styles)
+Styles that specify font color
+Styles that specify font family
+At least three divs for positioning and styling blocks of content in the HTML page*/
+body {
+    font-family: sans-serif;
+    font-size: 12px;
+}
+a:visited {
+    color: rgb(255, 192, 203);
+}
+.common {
+    /*background-color: #cccccc;*/
+    position: absolute;
+}
+.leftmenu {
+    top: 5px;
+    left: 5px;
+    width: 20%;
+    bottom: 5px;
+    padding-top: 5px;
+}
+.mainbody {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding-right: 5px;
+}
+.rightmenu {
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: right;
+}
+.rightmenu a{
+    font-size: 20px;
+    font-variant: small-caps;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}
